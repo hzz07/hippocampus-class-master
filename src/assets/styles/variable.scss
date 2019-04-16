@@ -1,0 +1,44 @@
+@function px2rem($px){
+    $rem: 32px;
+    @return ($px / $rem) +rem;
+}
+
+/*颜色定义规范*/
+$color-border : #8f96f5;
+$color-line : #999;
+$color-background : #fff;
+$color-background-d : rgba(0, 0, 0, 0.3);
+$color-highlight-background : #fff;
+$color-dialog-background : rgba(80,80,80,0.9);
+$color-theme : #81acf2;
+$color-theme-d : rgba(13,188,121, 0.5);
+$color-sub-theme : #d93f30;
+$color-text : #fff;
+$color-text-x : #999;
+$color-text-m : #666;
+$color-text-ll : rgba(229, 229, 229, 1);
+
+/*字体定义规范*/
+$font-size-small-s : px2rem(24px);
+$font-size-small : px2rem(28px);
+$font-size-medium : px2rem(32px);
+$font-size-medium-x : px2rem(36px);
+$font-size-large : px2rem(40px);
+$font-size-large-x : px2rem(44px);
+p,h1,h2,h3,h4,h5,h6{
+    letter-spacing:px2rem(3px);
+}
+
+//居中
+.center {width: px2rem(690px);margin: 0 auto;}
+
+.icoUp{
+    transform-origin: center center;
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+}
+.icoDowm{
+    transform-origin: center center;
+    transform: rotate(180deg);
+    transition: transform 0.2s;
+}

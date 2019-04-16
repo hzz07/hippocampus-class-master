@@ -1,0 +1,28 @@
+/**
+* 公用样式
+*/
+
+//清除浮动
+.clearFix::after {content: '';display: block;clear: both;}
+//左浮动
+.flowLeft {float: left;}
+//右浮动
+.flowRight {float: right;}
+.displayNone{display: none;}
+
+input::-webkit-input-placeholder{font-size:14px;color: #ccc;}
+input::-moz-placeholder{font-size:14px;color: #ccc;}
+input:-ms-input-placeholder{font-size:14px;color: #ccc;}
+
+textarea::-webkit-input-placeholder{font-size:14px;color: #ccc;}
+textarea::-moz-placeholder{font-size:14px;color: #ccc;}
+textarea:-ms-input-placeholder{font-size:14px;color: #ccc;}
+
+/*箭头旋转*/
+.rotate01 {transform-origin: center center;transform: rotate(180deg);transition: transform 0.2s;}
+.rotate02 {transform-origin: center center;transform: rotate(0deg);transition: transform 0.2s;}
+
+/*接口访问调用等待浮层*/
+.loader {position: fixed;top: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.2);display: none;z-index: 999;text-align: center;font-size: 14px}
+.loader img {margin-top: 60%;margin-bottom: 15px;}
+

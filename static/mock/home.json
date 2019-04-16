@@ -1,0 +1,68 @@
+{
+  "videoInfo": {
+    "coverMap": "../../static/imgs/video-img.png",
+    "videoSrc": ""
+  },
+  "articleLists": [
+    {
+      "article2": {
+        "article2Title": "精品课堂",
+        "article2Src": "../../static/imgs/article2_img001.png",
+        "article2Word": "初中物理在线学习从力学到电学呀呀呀呀呀",
+        "article2Eye": "65436"
+      }
+    },
+    {
+      "article2": {
+        "article2Title": "热销例题",
+        "article2Src": "../../static/imgs/article2_img002.png",
+        "article2Word": "初中物理在线学习从力学到电学呀呀呀呀呀",
+        "article2Eye": "2345"
+      }
+    },
+    {
+      "article1": {
+        "article1Src": "../../static/imgs/article1_img001.png",
+        "article1Word": "海上生明月，天涯共此时。人生自古谁无死，留取丹心照汗青。初中物理在线学习从力学到电学呀呀呀呀呀",
+        "article1Time": "2019/03/15",
+        "article1Eye": "23421"
+      },
+      "article2": {
+        "article2Title": "实战习题",
+        "article2Src": "../../static/imgs/article2_img004.png",
+        "article2Word": "初中物理在线学习从力学到电学呀呀呀呀呀",
+        "article2Eye": "31424"
+      }
+    },
+    {
+      "article2": {
+        "article2Title": "课程包",
+        "article2Src": "../../static/imgs/article2_img001.png",
+        "article2Word": "初中物理在线学习从力学到电学呀呀呀呀呀",
+        "article2Eye": "3241"
+      }
+    },
+    {
+      "article2": {
+        "article2Title": "例题包",
+        "article2Src": "../../static/imgs/article2_img002.png",
+        "article2Word": "初中物理在线学习从力学到电学呀呀呀呀呀",
+        "article2Eye": "6365"
+      }
+    },
+    {
+      "article1": {
+        "article1Src": "../../static/imgs/article1_img002.png",
+        "article1Word": "床前明月光，疑是地上霜，举头望明月，低头思故乡。初中物理在线学习从力学到电学呀呀呀呀呀",
+        "article1Time": "2019/03/17",
+        "article1Eye": "5313"
+      },
+      "article2": {
+        "article2Title": "习题包",
+        "article2Src": "../../static/imgs/article2_img004.png",
+        "article2Word": "初中物理在线学习从力学到电学呀呀呀呀呀",
+        "article2Eye": "207"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+ "classNav": [
+   {
+     "id": 1,
+     "navTitle": "初中物理",
+     "classList": [
+       {"id":"001", "imgSrl": "../../static/imgs/boutique_class001.png", "word": "初中物理", "words": "初中物理在线学习物态的变化 1.温度：物体的冷热程度叫温度 2.摄氏温度：把冰水混合物的温度规定为0度，把1标准大气压下沸水的温度规定为100度。", "money": "300", "eye": "12322"},
+       {"id":"002", "imgSrl": "../../static/imgs/boutique_class002.png", "word": "初中物理", "words": "初中物理在线学习声现象 1.声音的发生：一切正在发声的物体都在振动，振动停止，发声也就停止。声音是由物体的振动产生的，但并不是所有的振动都会发出声音。", "money": "288", "eye": "5255"},
+       {"id":"003", "imgSrl": "../../static/imgs/boutique_class003.png", "word": "初中物理", "words": "初中物理在线学习光现象 (一)光的反射 1、光源：能够发光的物体叫光源 2、光在均匀介质中是沿直线传播的。大气层是不均匀的，当光从大气层外射到地面时，光线发了了", "money": "250", "eye": "5342"},
+       {"id":"004", "imgSrl": "../../static/imgs/boutique_class004.png", "word": "初中物理", "words": "初中物理在线学习认识压强 1.压力：垂直作用在物体表面上的力叫压力。2.压强：物体单位面积上受到的压力叫压强。压强是表示压力作用效果的物理量。3.压强公式：p=F/S，式中p的单位是帕斯卡，简称帕，符号是Pa，1帕=1牛/平方米；压力F单位是牛；受力面积S单位是平方米。", "money": "198", "eye": "742"},
+       {"id":"005", "imgSrl": "../../static/imgs/boutique_class001.png", "word": "初中物理", "words": "初中物理在线学习物态的变化 1.温度：物体的冷热程度叫温度 2.摄氏温度：把冰水混合物的温度规定为0度，把1标准大气压下沸水的温度规定为100度。", "money": "300", "eye": "12322"},
+       {"id":"006", "imgSrl": "../../static/imgs/boutique_class002.png", "word": "初中物理", "words": "初中物理在线学习声现象 1.声音的发生：一切正在发声的物体都在振动，振动停止，发声也就停止。声音是由物体的振动产生的，但并不是所有的振动都会发出声音。", "money": "288", "eye": "5255"},
+       {"id":"007", "imgSrl": "../../static/imgs/boutique_class003.png", "word": "初中物理", "words": "初中物理在线学习光现象 (一)光的反射 1、光源：能够发光的物体叫光源 2、光在均匀介质中是沿直线传播的。大气层是不均匀的，当光从大气层外射到地面时，光线发了了", "money": "250", "eye": "5342"},
+       {"id":"008", "imgSrl": "../../static/imgs/boutique_class004.png", "word": "初中物理", "words": "初中物理在线学习认识压强 1.压力：垂直作用在物体表面上的力叫压力。2.压强：物体单位面积上受到的压力叫压强。压强是表示压力作用效果的物理量。3.压强公式：p=F/S，式中p的单位是帕斯卡，简称帕，符号是Pa，1帕=1牛/平方米；压力F单位是牛；受力面积S单位是平方米。", "money": "198", "eye": "742"}
+     ]
+   },
+   {
+     "id": 2,
+     "navTitle": "初中化学",
+     "classList": [
+       {"id":"001", "imgSrl": "../../static/imgs/boutique_class004.png", "word": "初中化学", "words": "初中化学在线学习初中化学常见物质的分类 1、单质：非惰性气体一般由两个原子组成：F2，O2，H2，Cl22、惰性气体：一般由一个原子组成：He，Ne,Ar,Kr,Xe3、化合物：氢化物居多：H2S，HCl，H3P,HF，HBr，HI", "money": "199", "eye": "16335"},
+       {"id":"002", "imgSrl": "../../static/imgs/boutique_class003.png", "word": "初中化学", "words": "初中化学在线学习气体的颜色1、红棕色气体：二氧化氮2、黄绿色气体：氯气3、无色气体：氧气，氮气，氢气，二氧化碳，一氧化碳，二氧化硫，氯化氢等气体。", "money": "156.7", "eye": "25433"},
+       {"id":"003", "imgSrl": "../../static/imgs/boutique_class002.png", "word": "初中化学", "words": "初中化学在线学习检验NaOH中是否含有NaCl：先滴加足量稀硝酸，再滴加AgNO3溶液，若产生白色沉淀，则含有NaCl。", "money": "299", "eye": "5432"},
+       {"id":"004", "imgSrl": "../../static/imgs/boutique_class001.png", "word": "初中化学", "words": "初中化学在线学习质量守恒定律的三个不改变：原子种类不变，原子数目不变，原子质量不变。", "money": "200", "eye": "42434"},
+       {"id":"005", "imgSrl": "../../static/imgs/boutique_class004.png", "word": "初中化学", "words": "初中化学在线学习初中化学常见物质的分类 1、单质：非惰性气体一般由两个原子组成：F2，O2，H2，Cl22、惰性气体：一般由一个原子组成：He，Ne,Ar,Kr,Xe3、化合物：氢化物居多：H2S，HCl，H3P,HF，HBr，HI", "money": "199", "eye": "16335"},
+       {"id":"006", "imgSrl": "../../static/imgs/boutique_class003.png", "word": "初中化学", "words": "初中化学在线学习气体的颜色1、红棕色气体：二氧化氮2、黄绿色气体：氯气3、无色气体：氧气，氮气，氢气，二氧化碳，一氧化碳，二氧化硫，氯化氢等气体。", "money": "156.7", "eye": "25433"}
+       ]
+   },
+   {
+     "id": 3,
+     "navTitle": "高中物理",
+     "classList": [
+       {"id":"001", "imgSrl": "../../static/imgs/boutique_class002.png", "word": "高中物理", "words": "高中物理在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "299", "eye": "5321"},
+       {"id":"002", "imgSrl": "../../static/imgs/boutique_class001.png", "word": "高中物理", "words": "高中物理在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "108.88", "eye": "123"},
+       {"id":"003", "imgSrl": "../../static/imgs/boutique_class004.png", "word": "高中物理", "words": "高中物理在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "199", "eye": "400"},
+       {"id":"004", "imgSrl": "../../static/imgs/boutique_class003.png", "word": "高中物理", "words": "高中物理在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "98", "eye": "24342"}
+     ]
+   },
+   {
+     "id": 4,
+     "navTitle": "高中化学",
+     "classList": [
+       {"id":"001", "imgSrl": "../../static/imgs/boutique_class003.png", "word": "高中化学", "words": "高中化学在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "234", "eye": "999"},
+       {"id":"002", "imgSrl": "../../static/imgs/boutique_class004.png", "word": "高中化学", "words": "高中化学在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "266", "eye": "564"},
+       {"id":"003", "imgSrl": "../../static/imgs/boutique_class001.png", "word": "高中化学", "words": "高中化学在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "179", "eye": "43222"},
+       {"id":"004", "imgSrl": "../../static/imgs/boutique_class002.png", "word": "高中化学", "words": "高中化学在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "250", "eye": "45342"},
+       {"id":"005", "imgSrl": "../../static/imgs/boutique_class003.png", "word": "高中化学", "words": "高中化学在线学习从力学到电学呀呀呀呀呀初中物理在线学习从力学到电学呀呀呀呀呀", "money": "234", "eye": "999"}
+     ]
+   }
+ ]
+}
