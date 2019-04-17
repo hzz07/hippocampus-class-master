@@ -13,9 +13,11 @@
 
 `首页/课程列表`
 
+<p>
+  ![avatar](./img/home.png)
+  ![avatar](./img/list.png)
+</p>
 
-![avatar](./img/home.png)
-![avatar](./img/list.png)
 
 
 `购物车/确认订单`
