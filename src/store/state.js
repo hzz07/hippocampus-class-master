@@ -3,7 +3,7 @@ const state = {
   userName: sessionStorage.getItem('userName') || '',
   phoneNumber: sessionStorage.getItem('phoneNumber') || '',
   password: sessionStorage.getItem('password') || '',
-	token:sessionStorage.getItem('token') || '',
+	token: sessionStorage.getItem('token') || '',
   checkGender: '',
   checkIdentity: sessionStorage.getItem('checkIdentity') || '',
   school: '',

@@ -166,10 +166,10 @@ export default {
   methods: {
     getAreadyInfor() {
       if (this.showInput !== 3) {
-        this.someInputVal.userNameText = this.$store.state.BasicInfor.userName;
+        this.someInputVal.userNameText = this.$store.state.userName;
       }
       if (this.showInput == 5) {
-        this.someInputVal.phoneNumberText = this.$store.state.BasicInfor.phoneNumber;
+        this.someInputVal.phoneNumberText = this.$store.state.phoneNumber;
       }
     },
     getverificationCode() {
@@ -230,16 +230,12 @@ export default {
           MessageBox.alert('请填写用户名').then(action => {});
           return false;
         }
-        if (this.someInputVal.userNameText != this.$store.state.BasicInfor.userName) {
+        if (this.someInputVal.userNameText != this.$store.state.userName) {
           MessageBox.alert('该用户名不存在,请先注册').then(action => {});
           return false;
         }
         if (!this.someInputVal.userPasswordText1 || this.someInputVal.userPasswordText1 == '') {
           MessageBox.alert('请输入密码').then(action => {});
-          return false;
-        }
-        if (this.someInputVal.userPasswordText1 != this.$store.state.BasicInfor.password) {
-          MessageBox.alert('密码错误请确认后重试!').then(action => {});
           return false;
         }
         this.valueOk = true;
@@ -249,7 +245,7 @@ export default {
           MessageBox.alert('请填写手机号').then(action => {});
           return false;
         }
-        if (this.someInputVal.phoneNumberText != this.$store.state.BasicInfor.phoneNumber) {
+        if (this.someInputVal.phoneNumberText != this.$store.state.phoneNumber) {
           MessageBox.alert('该手机号尚未注册,请先注册').then(action => {});
           return false;
         }
@@ -310,7 +306,7 @@ export default {
           MessageBox.alert('请输入手机号码').then(action => {});
           return false;
         }
-        if (this.someInputVal.phoneNumberText != this.$store.state.BasicInfor.phoneNumber) {
+        if (this.someInputVal.phoneNumberText != this.$store.state.phoneNumber) {
           MessageBox.alert('该手机号尚未注册,请先注册').then(action => {});
           return false;
         }
@@ -364,7 +360,7 @@ export default {
         this.valueOk = true;
       }
     },
-    ...mapMutations('BasicInfor', ['saveSuginInInfor']),
+    ...mapMutations(['saveSuginInInfor']),
     getInputVal1() {
       this.checkedInput();
       if (!this.valueOk) {
@@ -377,11 +373,8 @@ export default {
       }
       console.log(req)
       axios.userLogin(req).then(({ data }) => {
-        if (data.success) {
+        if (data.flag===1) {
           Toast(data.success);
-          if(data.flag === 0){
-            return false
-          }
           this.saveSuginInInfor(data);
           setTimeout(() => {
             this.$router.push({path: '/home'})
@@ -392,7 +385,7 @@ export default {
       })
 
     },
-    ...mapMutations('BasicInfor', ['saveRegistrationInfor']),
+    ...mapMutations(['saveRegistrationInfor']),
     getInputVal2() {
       let self = this;
       this.checkedInput();
@@ -436,7 +429,7 @@ export default {
         this.$router.push({path: '/signIn'})
       }, 3000);
     },
-    ...mapMutations('BasicInfor', ['saveBasicInfor']),
+    ...mapMutations(['saveBasicInfor']),
     getInputVal4() {
       this.checkedInput();
       if (!this.valueOk) {

@@ -127,9 +127,9 @@ export default {
   },
   methods: {
     getInfor() {
-      this.photo = this.$store.state.BasicInfor.photo;
-      this.name = this.$store.state.BasicInfor.userName;
-      this.identity = this.$store.state.BasicInfor.checkIdentity;
+      this.photo = this.$store.state.photo;
+      this.name = this.$store.state.userName;
+      this.identity = this.$store.state.checkIdentity;
     }
   },
   mounted() {

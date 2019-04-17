@@ -73,8 +73,9 @@ const Login = async(ctx) => {
 
     ctx.status = 200;
     ctx.body = {
-      success: true,
+      success: '登陆成功',
       username,
+			flag:1,
       token, // 登录成功要创建一个新的token,应该存入数据库
       create_time: doc.create_time
     };
@@ -82,7 +83,7 @@ const Login = async(ctx) => {
     console.log('密码错误!');
     ctx.status = 200;
     ctx.body = {
-      success: false
+      success: '密码错误,请重试！'
     };
   }
 };

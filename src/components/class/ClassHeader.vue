@@ -4,12 +4,10 @@
       <div class="ClassList-header center">
         <div class="search-box" @click="toSearch">
           <span class="search iconfont">&#xe684;</span>
-          <p>搜索</p>
         </div>
         <span class="ClassList-header-title">课程列表</span>
         <div class="history-box">
           <span class="history iconfont">&#xe671;</span>
-          <p>学习记录</p>
         </div>
       </div>
     </div>
@@ -55,9 +53,9 @@ export default {
         position: absolute;
         left: 0;
         top: 50%;
-        margin-top: px2rem(-28px);
+        margin-top: px2rem(-12px);
         span{
-          font-size: px2rem(40px);
+          font-size: px2rem(45px);
           color: white;
           line-height: px2rem(24px);
         }
@@ -74,9 +72,9 @@ export default {
         position: absolute;
         right: 0;
         top: 50%;
-        margin-top: px2rem(-28px);
+        margin-top: px2rem(-12px);
         span{
-          font-size: px2rem(40px);
+          font-size: px2rem(45px);
           line-height: px2rem(24px);
           color: white;
         }

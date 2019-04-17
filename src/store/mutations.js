@@ -6,7 +6,7 @@ const mutations = {
 
     sessionStorage.setItem('userName', state.userName);
     sessionStorage.setItem('phoneNumber', state.phoneNumber);
-    sessionStorage.setItem('password', state.password);
+    // sessionStorage.setItem('password', state.password);
   },
   saveBasicInfor(state, val) {
     state.userName = val.userName;
@@ -19,6 +19,8 @@ const mutations = {
     sessionStorage.setItem('checkIdentity', state.checkIdentity);
   },
   saveSuginInInfor(state, val) {
+		state.token = val.token;
+		sessionStorage.setItem('token', val.token);
     state.landFlag = val.flag;
   },
   savePersonalData(state, val) {
@@ -33,10 +35,6 @@ const mutations = {
     state.password = val.userPassword;
     sessionStorage.setItem('password', state.password);
   },
-	login(state,val){
-		state.token = val;
-    sessionStorage.setItem('token', val);
-	}
 }
 
 export default mutations

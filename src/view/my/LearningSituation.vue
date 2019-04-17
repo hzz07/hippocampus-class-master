@@ -48,6 +48,9 @@ export default {
   .LearningSituation{
     height: 100%;
     background-color: #f4f4f4;
+		
+		
+		
     .student-box{
       .box{
         background-color: white;

@@ -97,12 +97,12 @@ export default {
   },
   methods: {
     getMassage() {
-      this.personalData.photoSrc = this.$store.state.BasicInfor.photo;
-      this.personalData.name = this.$store.state.BasicInfor.userName;
-      this.personalData.checkGender = this.$store.state.BasicInfor.checkGender;
-      this.personalData.identity = this.$store.state.BasicInfor.checkIdentity;
-      this.personalData.adress = this.$store.state.BasicInfor.region;
-      this.personalData.school = this.$store.state.BasicInfor.school;
+      this.personalData.photoSrc = this.$store.state.photo;
+      this.personalData.name = this.$store.state.userName;
+      this.personalData.checkGender = this.$store.state.checkGender;
+      this.personalData.identity = this.$store.state.checkIdentity;
+      this.personalData.adress = this.$store.state.region;
+      this.personalData.school = this.$store.state.school;
     },
     routerback() {
       this.$router.back(-1);
@@ -131,7 +131,7 @@ export default {
         };
       }
     },
-    ...mapMutations('BasicInfor', ['savePersonalData']),
+    ...mapMutations(['savePersonalData']),
     saveData() {
       if (this.personalData.name == '') {
         MessageBox.alert('还不知道您怎么称呼呢，请填写昵称').then(action => {});
