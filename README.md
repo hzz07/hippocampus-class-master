@@ -13,15 +13,20 @@
 
 `首页/课程列表`
 
+
 ![avatar](./img/home.png)
 ![avatar](./img/list.png)
 
+
 `购物车/确认订单`
+
 
 ![avatar](./img/gouwu.png)
 ![avatar](./img/qrddan.png)
 
+
 `课程习题/个人中心/学习状态`
+
 
 ![avatar](./img/xiti.png)
 ![avatar](./img/person.png)
